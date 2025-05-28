@@ -1,11 +1,6 @@
 streamlit
 pandas
-datetime
 numpy
 scikit-learn
 joblib
-matplotlib.pyplot 
-seaborn
-train_test_split
-StandardScaler
-SimpleImputer
+matplotlib
