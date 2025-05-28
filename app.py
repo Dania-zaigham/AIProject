@@ -13,17 +13,21 @@ st.title("🌤️ Temperature Forecasting App")
 st.markdown(
     """
     <style>
-    .stApp {
-        background-image: url("https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif");
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
+    body {
+        background: linear-gradient(-45deg, #00aaff, #00ffaa, #ffdd00, #ff00cc);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 # === Input fields ===
