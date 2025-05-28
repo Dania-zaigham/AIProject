@@ -1,1 +1,7 @@
+[theme]
+primaryColor = "#FF4B4B"                  # Red accent (buttons, sliders)
+backgroundColor = "#0E1117"               # Dark background
+secondaryBackgroundColor = "#262730"      # Widget background
+textColor = "#FAFAFA"                     # Light text
+font = "sans serif"
 
