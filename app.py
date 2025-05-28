@@ -10,7 +10,21 @@ model = joblib.load("ridge_weather_model.pkl")
 
 # === Streamlit App UI ===
 st.title("🌤️ Temperature Forecasting App")
-st.markdown("Enter current weather details to predict the **temperature** using Machine Learning.")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # === Input fields ===
 humidity = st.slider("Humidity (%)", 0, 100, 65) / 100
