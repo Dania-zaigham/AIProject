@@ -2,5 +2,5 @@
 primaryColor = "#00BFFF"                 # Deep sky blue (buttons, sliders)
 backgroundColor = "#E0F7FA"              # Light aqua background
 secondaryBackgroundColor = "#B2EBF2"     # Soft blue for sidebar/widgets
-textColor = "#003B49"                    # Deep sea green text
+textColor = "#e3e1da"                    # Deep sea green text
 font = "sans serif"
