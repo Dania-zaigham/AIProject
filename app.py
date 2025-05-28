@@ -17,13 +17,14 @@ st.markdown(
         background-image: url("https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif");
         background-size: cover;
         background-attachment: fixed;
-        background-repeat: no-repeat;
         background-position: center;
+        background-repeat: no-repeat;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # === Input fields ===
 humidity = st.slider("Humidity (%)", 0, 100, 65) / 100
